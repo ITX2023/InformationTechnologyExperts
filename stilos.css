@@ -1,7 +1,7 @@
 body{
     font-family:'VLNL Decks', Times, serif;
 }
-.footdx
+
 .cuerpo{
     background-color: rgb(0, 0, 0);
    
@@ -162,7 +162,7 @@ border-radius: 20px;
 /* MAIN PAGINA*/
 /*---------------------------------------------------------------------*/
 main h1{
-    color: white;
+    color: rgb(0, 0, 0);
     /* text-shadow: 5px 8px 5px; */
 }
 main{
@@ -176,7 +176,12 @@ main{
 }
 main h3{
     text-align: center;
+    color:rgb(40, 40, 40)
 }
+main p{
+    color:rgb(40, 40, 40)
+}
+
 .linea1 {
     border: 1px solid rgb(226, 241, 226) ;
     width: 15%;
