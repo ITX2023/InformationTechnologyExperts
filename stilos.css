@@ -1,7 +1,7 @@
 body{
     font-family:'VLNL Decks', Times, serif;
 }
-
+.footdx
 .cuerpo{
     background-color: rgb(0, 0, 0);
    
@@ -9,7 +9,8 @@ body{
 /* MENU DE CABECERA*/
 /*---------------------------------------------------------------------*/
 #menuu{
-    background-color: rgb(0, 0, 0);
+    
+    background-color: rgb(12, 8, 31);
     justify-content: left;
     /* position:fixed;
 	z-index:1000;
@@ -151,7 +152,7 @@ border-radius: 20px;
 /* PIE DE PAGINA FOOTER*/
 /*---------------------------------------------------------------------*/
 #footdx{
-    
+    background: rgb(12, 8, 31);
     bottom: 0;
 }
 .textfoot{
@@ -165,7 +166,7 @@ main h1{
     /* text-shadow: 5px 8px 5px; */
 }
 main{
-     /* background-color: rgba(3, 9, 43,0.5);  */
+    background-color: rgb(200,200, 200);
     background-color:none;
     color: white;
     font-size: 2rem;
@@ -435,6 +436,5 @@ position: absolute;
 .textmarcas:hover{
     visibility: visible;
 }
-
 
 
