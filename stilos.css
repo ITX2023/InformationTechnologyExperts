@@ -1,5 +1,5 @@
 body{
-    font-family:'VLNL Decks', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cuerpo{
@@ -10,7 +10,7 @@ body{
 /*---------------------------------------------------------------------*/
 #menuu{
     
-    background-color: rgb(12, 8, 31);
+    background-color: rgb(7, 10, 43);
     justify-content: left;
     /* position:fixed;
 	z-index:1000;
@@ -145,19 +145,40 @@ color: rgb(27, 20, 20);
 .logodx{
 width: 250px;
 height: 110px;
-border-radius: 20px;
+
 /*opacity: 70%;*/
 }
 /*---------------------------------------------------------------------*/
 /* PIE DE PAGINA FOOTER*/
 /*---------------------------------------------------------------------*/
 #footdx{
-    background: rgb(12, 8, 31);
+    background: rgb(7, 10, 43);
     bottom: 0;
 }
 .textfoot{
     text-decoration: none;
 }
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:10px;
+    right:10px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+
+
 /*---------------------------------------------------------------------*/
 /* MAIN PAGINA*/
 /*---------------------------------------------------------------------*/
@@ -174,16 +195,23 @@ main{
     padding: 10px;
     position:static;
 }
-main h3{
+h3{
     text-align: center;
-    color:rgb(40, 40, 40)
-}
-main p{
-    color:rgb(40, 40, 40)
+    color:rgb(255, 255, 255)
 }
 
+p{
+    color:rgb(40, 40, 40)
+}
+#ParrafoServ{
+    color: white;
+}
+/*tamaño de letra de Mision y vision*/
+#MV{
+    font-size: 22px;
+}
 .linea1 {
-    border: 1px solid rgb(226, 241, 226) ;
+    border: 1px solid   white ;
     width: 15%;
     margin: auto;
     }
@@ -198,7 +226,7 @@ main p{
     bottom: 0;
     z-index: -1;
     
-  }
+}
 .imgserv{
     padding-top: 20px;
     width: 100%;
@@ -208,12 +236,41 @@ main p{
 .linea{
     border: 3px solid rgb(9, 10, 9);
 }
+/*modificar texto de index*/
+#asd1{
+    border-radius:22px rgb(9, 13, 58);
+    height: 70%;
+    display: table;
+    width:85%;
+    margin: 25px auto;
+    padding: bottom 10px;
+    border-radius: 5px;
+
+}
+#asd2{
+    border-radius: 22px;
+    background-color: rgba(200,200, 200,.7);
+    width:100%;
+    height: 70%;
+    box-shadow: 7px 7px 10px rgb(9, 13, 58);
+
+}
+/*
+margin: 25px auto;
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 200px;
+  box-shadow: 7px 7px 15px #592A08;
+*/
 
 .quienesomos{
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
-  
+#pagquien{
+    color: rgb(20, 20, 20);
+}
+
   .imgnosotros{
     border-radius: 100px 30px 100px 30px;
   
@@ -222,10 +279,13 @@ main p{
     padding-bottom: 15px;
 padding-top: 15px;
   }
+  
+  /*
   .imgnosotros:hover{
     filter: brightness(0.5);
     transform: scale(1.025);
   }
+  */
 .quienes{
   color: rgb(245, 233, 233);
   text-align: center;
